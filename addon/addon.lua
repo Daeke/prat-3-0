@@ -754,7 +754,7 @@ local wowsounds = {
   ["TellMessage"] = _G.SOUNDKIT.TELL_MESSAGE,
 }
 
-function PlaySound(self, sound)
+function Prat.PlaySound(self, sound)
   if not sound then return end
 
   if wowsounds[sound] then
